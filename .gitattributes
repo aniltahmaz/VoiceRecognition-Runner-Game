@@ -1,0 +1,5 @@
+*.uasset binary
+*.umap binary
+
+# Vosk model files must stay byte-identical (no line-ending conversion)
+VoiceRecognition/VoiceControl/model/** -text
